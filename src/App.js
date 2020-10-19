@@ -3,7 +3,7 @@ import TodoItem from "./TodoItem";
 import todosData from "./todosData";
 import elderlyLady from "./elderly-lady.jpeg";
 import teamSnap from "./team-snap.png";
-
+import jonny from './jonny.JPG';
 // fetch("https://swapi.dev/api/people/1/")
 
 // class App extends React.Component {
@@ -118,7 +118,7 @@ class App extends Component {
                   you already living.
                 </p>
                 <a href="http://www.edyn.care" class="article-read-more">
-                  CONTINUE READING{" "}
+                  Continue reading
                 </a>
               </article>
 
@@ -132,7 +132,7 @@ class App extends Component {
                     simple
                   </p>
                   <a href="#" class="article-read-more">
-                    CONTINUE READING
+                    Continue reading
                   </a>
                 </div>
                 <div class="article-recent-secondary">
@@ -150,23 +150,11 @@ class App extends Component {
                     leads to burnout. By keeping your work life as simple as
                     possible, it will help balance everything out
                   </p>
-                  <a href="#" class="article-read-more">CONTINUE READING</a>
+                  <a href="#" class="article-read-more">Continue reading</a>
                 </div>
                 <div class="article-recent-secondary">
-                  <img src="" alt="" class="article-image"></img>
+                  <img src={teamSnap} alt="" class="article-image"></img>
                   <p class="article-info">July 3, 2019 | 3 comments</p>
-                </div>
-              </article>
-
-              <article class="article-recent">
-                <div class="article-recent-main">
-                  <h2 class="article-title"></h2>
-                  <p class="article-body"></p>
-                  <a href="#" class="article-read-more"></a>
-                </div>
-                <div class="article-recent-secondary">
-                  <img src="" alt="" class="article-image"></img>
-                  <p class="article-info"></p>
                 </div>
               </article>
             </main>
@@ -174,14 +162,14 @@ class App extends Component {
             <aside class="sidebar">
               <div class="sidebar-widget">
                 <h2 class="widget-title">ABOUT ME</h2>
-                <img src="#" alt="" class="widget-image"></img>
+                <img src={jonny} alt="" class="widget-image"></img>
                 <p class="widget-body">I find life better, and I'm happier, when things are nice and simple.</p>
               </div>
 
               <div class="sidebar-widget">
                 <h2 class="widget-title">RECENT POSTS</h2>
                 <div class="widget-recent-post">
-                  <h3 class="widget-recent-post-title">Keeping cooking simpl</h3>
+                  <h3 class="widget-recent-post-title">Keeping cooking simple</h3>
                   <img src={elderlyLady} alt="" class="widget-image"></img>
                 </div>
                 <div class="widget-recent-post">
@@ -197,8 +185,8 @@ class App extends Component {
           </div>
 
           <footer>
-            <p></p>
-            <p></p>
+            <p>say nothing</p>
+            <p>what's going on</p>
           </footer>
         </body>
       </div>
